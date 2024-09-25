@@ -1,0 +1,11 @@
+{
+  "name": "target-nodejs-sdk-samples",
+  "version": "1.0.0",
+  "description": "This repository contains samples and demos for the [Target Node.js SDK](https://www.npmjs.com/package/@adobe/target-nodejs-sdk)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

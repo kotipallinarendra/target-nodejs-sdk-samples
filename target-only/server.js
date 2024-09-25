@@ -25,6 +25,7 @@ const TEMPLATE = fs.readFileSync(__dirname + "/templates/index.tpl").toString();
 
 const app = express();
 app.use(cookieParser());
+app.use(express.static(__dirname + "/public"));
 
 function saveCookie(res, cookie) {
   if (!cookie) {
@@ -79,6 +80,6 @@ app.get("/", async (req, res) => {
   }
 });
 
-app.listen(3000, function () {
+app.listen(4000, function () {
   console.log("Listening on port 3000 and watching!");
 });

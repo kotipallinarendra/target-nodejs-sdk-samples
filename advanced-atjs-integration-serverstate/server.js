@@ -1,4 +1,4 @@
-/***************************************************************************************
+  /***************************************************************************************
  * (c) 2019 Adobe. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License. You may obtain a copy
@@ -107,6 +107,6 @@ app.get("/", async (req, res) => {
   }
 });
 
-app.listen(3000, function() {
+app.listen(4000, function() {
   console.log("Listening on port 3000 and watching!");
 });
